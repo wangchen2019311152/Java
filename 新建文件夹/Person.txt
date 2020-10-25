@@ -1,0 +1,16 @@
+package 学生选课管理系统;
+public class Person {
+int number;
+String name;
+String gender;
+Person(){
+}
+Person(int number,String name,String gender){
+	this.number=number;
+	this.name=name;
+	this.gender=gender=gender;
+	System.out.println("我的编码是："+number+"姓名是"+name+"性别是"+gender);
+	
+}
+
+}
